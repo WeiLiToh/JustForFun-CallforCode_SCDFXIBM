@@ -5,11 +5,11 @@
 #include <PubSubClient.h>
 
 // Watson IoT connection details
-#define MQTT_HOST "0f78uu.messaging.internetofthings.ibmcloud.com"
+#define MQTT_HOST "XXXX.messaging.internetofthings.ibmcloud.com" //Replaced sensitive credentials with "XXXX", originally the orgid.
 #define MQTT_PORT 1883
-#define MQTT_DEVICEID "d:0f78uu:ESP8266:dev01"
+#define MQTT_DEVICEID "d:XXXX:ESP8266:dev01" //Replaced sensitive credentials with "XXXX", originally the orgid.
 #define MQTT_USER "use-token-auth"
-#define MQTT_TOKEN "W@sd15417"
+#define MQTT_TOKEN "XXXX" //Replaced sensitive credentials with "XXXX", originally the orgid.
 #define MQTT_TOPIC "iot-2/evt/status/fmt/json"
 #define MQTT_TOPIC_DISPLAY "iot-2/cmd/display/fmt/json"
 
@@ -25,8 +25,8 @@ int echoTime; //echo time
 float distance; //distance(cm)
 
 // Add WiFi connection information
-char ssid[] = "SINGTEL-BC30(2.4G)";     //  your network SSID (name)
-char pass[] = "eexaisohph";  // your network password
+char ssid[] = "XXXX";     //  your network SSID (name). Replaced the sensitive credentials with "XXXX".
+char pass[] = "XXXX";  // your network password
 
 NewPing sonar(TRIGGER, ECHO,maxDist);
 DHT dht(DHTPIN, DHTTYPE);
