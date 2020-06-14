@@ -14,7 +14,7 @@ The DHT11 sensor gives us information about the temperture and humidity. This im
 
 ## Driver Installation
 ### Windows/Linux
-The next step would be to install the required drivers for our ESP8266 module. Windows and Linux installations can be downloaded [here] (https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) Select the appropriate one for your OS, download it, unzip it and install it.
+The next step would be to install the required drivers for our ESP8266 module. Windows and Linux installations can be downloaded [here](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) Select the appropriate one for your OS, download it, unzip it and install it.
 
 ### MacOS 
 The manufacturer's web site (http://www.wch.cn/download/CH341SER_MAC_ZIP.html) , in Chinese, for the USB driver chip on the LoLin NodeNCU board - translate with Google Chrome, then click on download ink to access the macOS driver. After installing goto System Preferences -> Security and Privacy to allow the driver to be loaded.
