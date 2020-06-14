@@ -9,7 +9,8 @@ The DHT11 sensor gives us information about the temperture and humidity. This im
 ![wiringDiagram](https://user-images.githubusercontent.com/62842333/84584757-ca160b80-ae3a-11ea-84e1-079f564a9441.PNG)
 
 # Arduino Code Sketch 
-``` #include <ESP8266WiFi.h>
+``` c++ 
+#include <ESP8266WiFi.h>
 #include "DHT.h"
 #include <NewPing.h>
 #include <ArduinoJson.h>
