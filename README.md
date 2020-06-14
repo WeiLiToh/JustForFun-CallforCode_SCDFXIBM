@@ -1,4 +1,4 @@
-### Teamless-CallforCode_SCDFXIBM
+### JustForFun-CallforCode_SCDFXIBM
 Hi! My name is Wei Li and I'm currently pursuing a diploma in electrical engineering at Ngee Ann Polytechnic. I'm also the sole member of this project. 
 
 ### Idea Proposal 
@@ -25,12 +25,17 @@ a) The goal of my project is to prevent the spread of COVID-19 between the elder
 - Wide rollout of KeepMeSafe for elderly citizens all over the world
 - Reduce the transmission of COVID-19 amongst the elderly population
 
-### Step-by-step guide on installing the required software and how to run a demo of the solution
+### [Step-by-step guide on installing the required software and how to run a demo of the solution](https://github.com/WeiLiToh/Teamless-CallforCode_SCDFXIBM/blob/master/Setup.md)
 
 ### Running the tests for the proposed solution  
 
 ### Live Demo of Proposal 
 
 ### Softwares/Platforms used 
+- [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform)
+- [Node-RED](https://nodered.org/)
+- [Nexmo](https://developer.nexmo.com/)
+- [Arduino IDE](https://www.arduino.cc/)
 
-
+# Authors
+- Toh Wei Li
