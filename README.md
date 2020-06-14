@@ -28,8 +28,7 @@ a) The goal of my project is to prevent the spread of COVID-19 between the elder
 ### [Step-by-step guide on installing the required software and how to run a demo of the solution](https://github.com/WeiLiToh/Teamless-CallforCode_SCDFXIBM/blob/master/Setup.md)
 
 ### Running the tests for the proposed solution  
-
-### Live Demo of Proposal 
+My proposed solution aims to reduce the spread of COVID-19 between elderly residents in Singapore. It requires a wide rollout of the product for an observable difference. To assess the effectiveness of the proposed solution, analysis of the COVID-19 cases has to be conducted as well. In analysing the COVID-19 cases, we seek to understand if those are infected with COVID-19 are wearing KeepMeSafe and whether they have violated any social distancing measures. 
 
 ### Softwares/Platforms used 
 - [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform)
