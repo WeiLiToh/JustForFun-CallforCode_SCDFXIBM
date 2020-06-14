@@ -57,12 +57,17 @@ After deploying our application, registration of the device would be very straig
 Our Node-RED app has to be created next, in order for us to send messages to those who have breached safety distancing measures and seek to correct them using our SMS messages. 
 
 # Node-RED
-Let us delve deeper into our Node-RED flow and understand how it's flow works.
+Let's analyze our Node-RED flow and understand how it's flow works.
 
 ![image](https://user-images.githubusercontent.com/62842333/84583932-6dfab980-ae31-11ea-8600-345b71b0d44e.png)
 
 - MQTT in: Connects our device to Node-RED. The data we are sending is parsed as a JSON object into this node. This node enables us to obtain the distance between our user and other members of the public.
+
 - change: Our msg.payload from our MQTT in node is a JSON object that not only contains our distance value, but also our temperature, humidity and echo time values. The change node sets the msg.payload such that we only obtain the value we are interested in, the distance (It sets msg.pauload to msg.payload.d.distance). 
+
 - function: When social distancing measure has been violated, function will be True and an SMS will be sent to the user who has violated it. The msg.payload consists of an if statement to check if the value of msg.payload is less than 100.
 - debug: debug node is set to output the msg.payload, helps to verify if the change node is successful in extracting only the distance value.
+
 - send SMS: When function node is true, this node will be triggered and an SMS will be sent to the user who has violated the social distancing measure
+
+
