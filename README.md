@@ -6,11 +6,10 @@ a) The goal of my project is to prevent the spread of COVID-19 between the elder
 
 ### Pitch Video
 
-
 ### Architecture of proposed solution
 ![IoT_Architecture](https://user-images.githubusercontent.com/62842333/84574201-6c9ca300-add7-11ea-9b4a-06242e5a198c.PNG)
 
-### Detailed Solution (hyperlink)
+### [Detailed Solution](https://github.com/WeiLiToh/Teamless-CallforCode_SCDFXIBM/blob/master/Detailed%20Solution.md)
 
 ## Project Roadmap/Proposed Timeline
 - My Project "KeepMeSafe" currently gathers the temperature, humidity, echo time and distance and sends the data as a JSON object to the IBM cloud for processing
