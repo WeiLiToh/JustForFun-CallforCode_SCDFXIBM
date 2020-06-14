@@ -26,6 +26,11 @@ Some of these values have to be changed to match your configuration:
 - PPPP is the token you used when registering the device 
 - ZZZZ is the device ID for your ESP8266, you can use dev01 for this.
 
+# Connecting to the Watson IoT platform
+After uploading the [code](https://github.com/WeiLiToh/Teamless-CallforCode_SCDFXIBM/blob/master/src/ConnectedToWatson.ino), we should be able to see the following screen
+
+
+
 # Node-RED
 Let's analyze our Node-RED flow and understand how it's flow works.
 
@@ -39,5 +44,10 @@ Let's analyze our Node-RED flow and understand how it's flow works.
 - debug: debug node is set to output the msg.payload, helps to verify if the change node is successful in extracting only the distance value.
 
 - send SMS: When function node is true, this node will be triggered and an SMS will be sent to the user who has violated the social distancing measure
+
+## Outcome of Node-Red Implementation
+Content of SMS message
+
+![image](https://user-images.githubusercontent.com/62842333/84587614-4b799800-ae53-11ea-9e77-d86cac501a85.png)
 
 
