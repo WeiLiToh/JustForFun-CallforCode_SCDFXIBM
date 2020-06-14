@@ -7,6 +7,11 @@ The Ultrasonic sensor attached to the ESP8266 board gives us the distance betwee
 
 The DHT11 sensor gives us information about the temperture and humidity. This improves the accuracy of finding the distance between board and object by enbaling us to factor in temperature and humidity in the calculation of the distance apart.
 
+## Circuit Diagram
+(Note: Have some problems generating schematic on Fritzing. However, this would be a circuit diagram of how the components are being wired together in this project)
+
+![wiringDiagram](https://user-images.githubusercontent.com/62842333/84584722-5247e100-ae3a-11ea-90fb-bfa3ed4e5b7e.PNG)
+
 ## Driver Installation
 ### Windows/Linux
 The next step would be to install the required drivers for our ESP8266 module. Windows and Linux installations can be downloaded [here] (https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) Select the appropriate one for your OS, download it, unzip it and install it.
