@@ -2,6 +2,11 @@
 ## Pre-requisites
 This project has been developed with Arduino. The IDE will be needed to run code on the Arduino. It can be downloaded [here] (https://www.arduino.cc/en/main/software) Note that there may be some issues with opening Arduino IDE on version 1.8.12.  Hence it is recommended you download the Beta Version of Arduino IDE.
 
+## Sensors and Buzzer
+The Ultrasonic sensor attached to the ESP8266 board gives us the distance between the sender (our board) and an object based on the time it takes for the sound waves it emits to be reflected back. For this project, if the distance bewteen the ESP8266 board and an objet in front of it is found to be less than 100cm, the buzzer emits a noise.
+
+The DHT11 sensor gives us information about the temperture and humidity. This improves the accuracy of finding the distance between board and object by enbaling us to factor in temperature and humidity in the calculation of the distance apart.
+
 ## Driver Installation
 ### Windows/Linux
 The next step would be to install the required drivers for our ESP8266 module. Windows and Linux installations can be downloaded [here] (https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) Select the appropriate one for your OS, download it, unzip it and install it.
