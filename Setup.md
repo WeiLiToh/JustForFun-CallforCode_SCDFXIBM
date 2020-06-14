@@ -22,6 +22,14 @@ Select OK to close the preferences dialog.
 
 Select *Tools -> Board: -> Board Manager...* from the menu, then enter ESP in the search box. Install the plugin **esp8266 by ESP8266 community**. Click inside the esp8266 box then press install to install the latest plugin. Once installed close the board manager. 
 
+### Installing libraries for the project
+After launching the Arduino IDE, go to the sketch menu, select "Include library" and finally "Manage Libraries", then search and install the following libraries
+
+- ArduinoJson by Benoit Blanchon Version 6.15.2
+- NewPing by Tim Eckel Version 1.9.1. This library improves the performance of our ultrasonic sensor.
+- DHT sensor library by Adafruit Version 1.3.10
+- PubSubClient by Nick O'Leary Version 2.8.0. This library will allow us to send and receive MQTT messages.
+
 ### Installing filesystemupload tool for ESP8266 
 The ESP8266 has flash memory that can hold a filesystem. There is a plugin for Arduino that allows you to generate a populated filesystem and upload it to the ESP8266 board. The plugin can be downloaded from here [here](https://github.com/esp8266/arduino-esp8266fs-plugin/releases) . You need to create a tools directory within the sketch directory then extract the content there.
 
