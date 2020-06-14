@@ -1,5 +1,5 @@
 ## Sensors and Buzzer
-The Ultrasonic sensor attached to the ESP8266 board gives us the distance between the sender (our board) and an object based on the time it takes for the sound waves it emits to be reflected back. For this project, if the distance bewteen the ESP8266 board and an objet in front of it is found to be less than 100cm, the buzzer emits a noise.
+The Ultrasonic sensor attached to the ESP8266 board gives us the distance between the sender (our board) and an object based on the time it takes for the sound waves it emits to be reflected back. For this project, if the distance between the ESP8266 board and an object in front of it is found to be less than 100cm, the buzzer emits a noise.
 
 The DHT11 sensor gives us information about the temperture and humidity. This improves the accuracy of finding the distance between board and object by enbaling us to factor in temperature and humidity in the calculation of the distance apart.
 
@@ -10,15 +10,22 @@ The DHT11 sensor gives us information about the temperture and humidity. This im
 
 # Arduino Code Sketch 
 ``` c++ 
-// Watson IoT connection details
-#define MQTT_HOST "0f78uu.messaging.internetofthings.ibmcloud.com"
+// Watson IoT connection details, Sensitive Credentials have been replaced with "XXXX"
+#define MQTT_HOST "XXXXXX.messaging.internetofthings.ibmcloud.com" 
 #define MQTT_PORT 1883
-#define MQTT_DEVICEID "d:0f78uu:ESP8266:dev01"
+#define MQTT_DEVICEID "d:XXXXXX:YYYY:ZZZZ" 
 #define MQTT_USER "use-token-auth"
-#define MQTT_TOKEN "W@sd15417"
+#define MQTT_TOKEN "PPPP" 
 #define MQTT_TOPIC "iot-2/evt/status/fmt/json"
 #define MQTT_TOPIC_DISPLAY "iot-2/cmd/display/fmt/json"
 ```
+Above shows a crucial part of our code that enbales us to get our device connected to Watson IoT. 
+Some of these values have to be changed to match your configuration:
+- XXXXXX should be the 6 character Organisation ID for your platform. The organisation ID can be obtained under the settings section of the IoT Platform console. Under identity, you will see the value to use.
+- YYYY is the device type you used for the ESP8266 device. This should be ESP8266. 
+- PPPP is the token you used when registering the device 
+- ZZZZ is the device ID for your ESP8266, you can use dev01 for this.
+
 # Node-RED
 Let's analyze our Node-RED flow and understand how it's flow works.
 
