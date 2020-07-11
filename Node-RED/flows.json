@@ -80,7 +80,7 @@
         "type": "sendsms",
         "z": "91875c9e.f3fa8",
         "creds": "80fa2880.9ded48",
-        "to": "6591550623",
+        "to": "65{MOBILE.NO}",
         "fr": "Node-RED",
         "text": "Please observe Safe Distancing Meaures! Thank you! :)",
         "unicode": false,
