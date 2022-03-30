@@ -4,7 +4,7 @@ Hi! My name is Wei Li and I'm currently pursuing a diploma in electrical enginee
 ### Idea Proposal 
 a) The goal of my project is to prevent the spread of COVID-19 between the elderly residents. Through the use of technology, I hope to encourage safe distancing measures and educate them on its importance. My idea, the "KeepMeSafe" consists of an ESP8266 board connected with a buzzer that sounds when social distancing rules have been violated. In addition, the ESP8266 is connected to IBM's Node-RED IoT platform. Using a SMS API, Node-RED is able to send SMS notifications to those who have violated social distancing measures. These SMS notifications seek to educate and inform them on the importance of mainintaining social distance and other safety guidelines to adhere to during the COVID-19 season.
 
-### [Pitch Video](https://www.youtube.com/watch?v=AOLNRhTPdcY)
+### [Pitch Video]
 My pitch video for the call for code challenge. Just to add on, my project aims to deal with the problem statement "Preventing the Spread" 
 
 ### Architecture of proposed solution
